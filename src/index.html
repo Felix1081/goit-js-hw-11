@@ -14,20 +14,19 @@
       
       <form class="form">
         <label>
-          <input type="text" name="search-text" placeholder="Search images..." required>
+          <input class="txt-input" type="text" name="search-text" placeholder="Search images..." required>
         </label>
-        <button type="submit">Search</button>
+        <button class="search-btn" type="submit">Search</button>
       </form>
       
-      <ul class="gallery">
+      <ul class="gallery"></ul>
 
-      </ul>
+      <div class="loader hidden"></div>
+
     </main>
 
     <load src="./partials/footer.html" />
 
-    <script type="module" src="./main.js"></script>
-    <script type="module" src="./js/pixabay-api.js"></script>
-    <!-- <script type="module" src="./js/render-functions.js"></script> -->
+    <script type="module" src="./main.js"></script> 
   </body>
 </html>
